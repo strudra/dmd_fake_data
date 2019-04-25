@@ -18,7 +18,7 @@ def create_csv_file():
             writer.writerow(
                 {
                     'date': fake.unix_time(end_datetime=None, start_datetime=None),
-                    'duration': fake.word(ext_word_list=['1h', '1.5h', '45min', '2h', '3h'])
+                    'duration': fake.word(ext_word_list=['60', '90', '45', '120', '180'])
                 }
             )
 
